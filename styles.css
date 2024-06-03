@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo i {
+    height: 40px;
+    margin-right: 10px;
+    font-size: 40pt;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero .content {
+    position: relative;
+    top: 40%;
+    right: 25%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.hero .content #contactForm {
+    position: absolute;
+    top: 40%;
+    width: 500px;
+    right: -20%;
+
+}
+
+.hero .content #contactForm input {
+    background-color: transparent;
+    color: white;
+    border: 1px solid gray;
+}
+.hero .content #contactForm textarea {
+    background-color: transparent;
+    color: white;
+}
+.hero h2 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #008ecc;
+}
+
+.social-icons {
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    z-index: 3;
+}
+
+.social-icons a {
+    display: block;
+    margin: 10px 0;
+    color: white;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label,
+form input,
+form textarea,
+form button {
+    margin-bottom: 10px;
+}
+
+#results {
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    margin-top: 20px;
+    z-index: 2;
+}
+
+.result {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+}

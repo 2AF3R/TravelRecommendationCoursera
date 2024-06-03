@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Beach Paradise",
+        "description": "A beautiful beach with clear water and white sand.",
+        "imageUrl": "https://t4.ftcdn.net/jpg/00/33/47/61/360_F_33476112_srzVnXefsUfTOwidwQ3wnQfNu9NMk33T.jpg",
+        "type": "beach"
+    },
+    {
+        "name": "Mountain Retreat",
+        "description": "A serene mountain retreat perfect for relaxation.",
+        "imageUrl": "mountain.jpg",
+        "type": "country"
+    },
+    {
+        "name": "Ancient Temple",
+        "description": "A historical temple with magnificent architecture.",
+        "imageUrl": "temple.jpg",
+        "type": "temple"
+    }
+]
